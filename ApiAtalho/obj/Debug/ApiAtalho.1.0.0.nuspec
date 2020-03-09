@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ApiAtalho</id>
+    <version>1.0.0</version>
+    <authors>ApiAtalho</authors>
+    <owners>ApiAtalho</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Google.Apis.Sheets.v4" version="1.44.0.1877" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/google-credentials.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\PICHAU\Desktop\Trabalho\ApiAtalho\ApiAtalho\bin\Debug\netcoreapp3.1\ApiAtalho.runtimeconfig.json" target="lib\netcoreapp3.1\ApiAtalho.runtimeconfig.json" />
+    <file src="C:\Users\PICHAU\Desktop\Trabalho\ApiAtalho\ApiAtalho\bin\Debug\netcoreapp3.1\ApiAtalho.dll" target="lib\netcoreapp3.1\ApiAtalho.dll" />
+    <file src="C:\Users\PICHAU\Desktop\Trabalho\ApiAtalho\ApiAtalho\google-credentials.json" target="content\google-credentials.json" />
+    <file src="C:\Users\PICHAU\Desktop\Trabalho\ApiAtalho\ApiAtalho\google-credentials.json" target="contentFiles\any\netcoreapp3.1\google-credentials.json" />
+  </files>
+</package>

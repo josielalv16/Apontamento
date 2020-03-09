@@ -1,0 +1,60 @@
+<style>
+    p {
+        margin: 2px;
+    }
+
+    div {
+        margin-left: 10px;
+    }
+
+    table, table td, table th {
+        border-collapse: collapse;
+        border: 2px solid black;
+        padding: 5px;
+    }
+
+    thead {
+        text-align: center;
+    }
+
+    .fonte {
+        color: #1F4E79;
+        font-family: Tahoma;
+        font-size: 12pt;
+    }
+</style>
+<div>
+    <p class="fonte">Segue apontamento de horas</p>
+    <p class="fonte">{{analista}} - {{tempoGasto}} minutos</p>
+    <br />
+    <table style="width: 1900px;">
+        <thead>
+            <tr>
+                <th style="width: 87px;">Data da Solicitação</th>
+                <th style="width: 113px;">Analista</th>
+                <th style="width: 102px;">Tipo de Atendimento</th>
+                <th style="width: 88px;">Solicitante</th>
+                <th style="width: 195px;">Área</th>
+                <th style="width: 87px;">Início</th>
+                <th style="width: 87px;">Término</th>
+                <th style="width: 215px;">Assunto</th>
+                <th style="width: 833px;">Descrição da solução</th>
+                <th style="width: 92px;">Tempo gasto (Minutos)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">{{dataSol}}</td>
+                <td>{{analista}}</td>
+                <td>{{tipoAtendimento}}</td>
+                <td>{{solicitante}}</td>
+                <td>{{area}}</td>
+                <td style="text-align: center;">{{dataInicio}}</td>
+                <td style="text-align: center;">{{dataFim}}</td>
+                <td>{{assunto}}</td>
+                <td>{{descricao}}</td>
+                <td style="text-align: center;">{{tempoGasto}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
