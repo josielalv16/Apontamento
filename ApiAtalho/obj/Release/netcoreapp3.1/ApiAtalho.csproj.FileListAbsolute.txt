@@ -17,3 +17,4 @@ C:\Users\josie\Desktop\Apontamento\ApiAtalho\obj\Release\netcoreapp3.1\ApiAtalho
 C:\Users\josie\Desktop\Apontamento\ApiAtalho\obj\Release\netcoreapp3.1\ApiAtalho.csproj.CopyComplete
 C:\Users\josie\Desktop\Apontamento\ApiAtalho\obj\Release\netcoreapp3.1\ApiAtalho.dll
 C:\Users\josie\Desktop\Apontamento\ApiAtalho\obj\Release\netcoreapp3.1\ApiAtalho.pdb
+C:\Users\josie\Desktop\Apontamento\ApiAtalho\obj\Release\netcoreapp3.1\ApiAtalho.csprojAssemblyReference.cache

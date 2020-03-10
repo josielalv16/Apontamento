@@ -33,18 +33,20 @@ namespace ApiAtalho
 
         static async Task Main(string[] args)
         {
-            var serviceValues = GetSheetsService().Spreadsheets.Values;
+            var config = File.ReadAllText($@"{AppDomain.CurrentDomain.BaseDirectory}config.json");
 
-            Console.WriteLine("Linha: ");
-            string linhaPlanilha = Console.ReadLine();
+            //var serviceValues = GetSheetsService().Spreadsheets.Values;
 
-            // Planilha de Apontamento de Horas Wagner
-            string lerRangeApontamento = $"Março/2020!A{linhaPlanilha}:J{linhaPlanilha}";
+            //Console.WriteLine("Linha: ");
+            //string linhaPlanilha = Console.ReadLine();
 
-            await LerPlanilha(serviceValues, lerRangeApontamento, idPlanilhaApontamento, false);
+            //// Planilha de Apontamento de Horas Wagner
+            //string lerRangeApontamento = $"Março/2020!A{linhaPlanilha}:J{linhaPlanilha}";
 
-            Email email = new Email();
-            email.EnviarEmail(linhaSplit, apontamento);
+            //await LerPlanilha(serviceValues, lerRangeApontamento, idPlanilhaApontamento, false);
+
+            //Email email = new Email();
+            //email.EnviarEmail(linhaSplit, apontamento);
             Console.Read();
         }
 

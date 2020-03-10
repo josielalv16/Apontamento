@@ -35,6 +35,7 @@ namespace ApiAtalho
 
         private void EnviaEmail(string body, string assunto)
         {
+
             var email = new MailMessage("josiel.alves@smn.com.br", "suporte.momentum@smn.com.br")
             {
                 Subject = assunto,
