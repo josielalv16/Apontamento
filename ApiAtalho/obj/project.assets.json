@@ -201,19 +201,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PICHAU\\.nuget\\packages\\": {}
+    "C:\\Users\\josie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PICHAU\\Desktop\\Trabalho\\ApiAtalho\\ApiAtalho\\ApiAtalho.csproj",
+      "projectUniqueName": "C:\\Users\\josie\\Desktop\\Apontamento\\ApiAtalho\\ApiAtalho.csproj",
       "projectName": "ApiAtalho",
-      "projectPath": "C:\\Users\\PICHAU\\Desktop\\Trabalho\\ApiAtalho\\ApiAtalho\\ApiAtalho.csproj",
-      "packagesPath": "C:\\Users\\PICHAU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PICHAU\\Desktop\\Trabalho\\ApiAtalho\\ApiAtalho\\obj\\",
+      "projectPath": "C:\\Users\\josie\\Desktop\\Apontamento\\ApiAtalho\\ApiAtalho.csproj",
+      "packagesPath": "C:\\Users\\josie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josie\\Desktop\\Apontamento\\ApiAtalho\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PICHAU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
